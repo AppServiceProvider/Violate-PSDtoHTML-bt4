@@ -1,0 +1,626 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%; 
+    /* --- 100/16=6.25*10=62.5% ---*/
+
+   
+
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+:root{
+    --text-color: #FFFFFF;
+    --bg-color: #7B58EB;
+    
+}
+.B_t_n{
+    border-radius:22.0rem;
+    font-weight: 600;
+}
+
+#header {
+    background-color: var(--bg-color);
+    background: linear-gradient( rgba(123,88,235,.9), rgba(123,88,235,.9)),url(img/BGimg/Rec.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    
+    color: var(--text-color);
+    max-height: 85.0rem!important;
+ 
+    
+}
+
+
+.navbar strong{
+    color: var(--text-color);
+    font-size: 2.5rem;
+}
+.navbar-nav>li>a{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    
+    
+}
+header .container .jumbotron{
+    margin-bottom: 20.5rem!important;
+    margin-top: 20.0rem!important;
+    
+}
+.jumbotron>h1{
+    font-size: 6.0rem;
+    text-transform: uppercase;
+   
+}
+.jumbotron small{
+    font-size: 1.5rem;
+    white-space: nowrap;
+
+}
+.jumbotron{
+      background: linear-gradient( rgba(123,88,235,.0), rgba(123,88,235,.0))
+}
+.lead a{
+    background-color: var(--text-color)!important
+        ;
+    color: var(--bg-color);
+    font-weight: 500;
+    width: 26.0rem;
+    height: 5.0rem;
+    line-height: 3;
+    
+}
+.fa{
+    color: white;
+}
+.no-gutters ul>li{
+    display: flex;
+     float: right;
+  
+}
+.no-gutters ul>li>a{
+    margin-left: 15px;
+   
+   
+    
+}
+
+/*section 1 */
+.section_1 .container>div h2{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+
+.pseudo h2:after{
+     background-color: #7F56FD;
+    width: 7.0rem;
+    display: block;
+    content: "";
+    height: 0.188rem;
+    margin: auto;
+    margin-top: 0.625rem;
+}
+.pseudo div:before{
+     background-color: #7F56FD;
+    width: 4.0rem;
+    display: block;
+    content: "";
+    height: 0.188rem;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.pseudo small{
+     font-size: 1.5rem;
+}
+
+.section_1 img{
+    max-width: 100%;
+}
+
+.about_me_content{
+    font-size: 1.6rem;
+}
+.section_1 button{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    
+}
+.section_1 btn1{
+    width: 18.0rem;
+    max-height: 4.5rem;
+    font-size:1.5rem ;
+    font-weight: 300;
+     text-transform: uppercase;
+    border:0;
+}
+.section_1 btn2{
+    width: 14.0rem;
+    height: 4.5rem;
+    font-size:1.5rem ;
+    font-weight: 300;
+    text-transform: uppercase;
+    border:0;
+}
+
+
+
+
+
+
+ /* section2 my skill*/
+.section_2{
+     
+    background: linear-gradient( rgba(123,88,235,.9), rgba(123,88,235,.9)),url(img/BGimg/Rectangle2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center center;
+}
+
+
+
+
+
+.section_2 .container>div h2{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+
+.section_2 .pseudo h2:after{
+     background-color:white;
+    width: 7.0rem;
+    display: block;
+    content: "";
+    height: 0.188rem;
+    margin: auto;
+    margin-top: 0.625rem;
+}
+.section_2 .pseudo div:before{
+     background-color: white;
+    width: 4.0rem;
+    display: block;
+    content: "";
+    height: 0.188rem;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.pseudo small{
+     font-size: 1.5rem;
+}
+
+.section_2 img{
+    width: 5rem;
+    height: 5rem;
+ 
+}
+.my_skill{
+    color: black;
+}
+
+.my_skill .skill_card{
+    
+    border-radius: 0.7rem;
+    background-color: #FFFFFF;
+    min-width: 35.4rem!important;
+    height: 16.7rem!important;
+    -webkit-box-shadow: -4px 4px 46px -20px rgba(0,0,0,0.67);
+-moz-box-shadow: -4px 4px 46px -20px rgba(0,0,0,0.67);
+box-shadow: -4px 4px 46px -20px rgba(0,0,0,0.67);
+   
+}
+
+
+
+.col-3.mr-4.skill_card {
+    margin-left: 0!important;
+}
+.col-3.skill_card.last_skill_card {
+    margin-left: 0!important;
+}
+.progress-bar{
+    background-color: #7FB7FA;
+}
+
+
+
+
+
+
+.bg_img img{
+        border-radius: 1.2rem;
+    position: relative;
+    max-width: 100%;
+    -webkit-box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.70);
+-moz-box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.70);
+box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.70);
+    
+    
+}
+
+.bg_img:after{
+    content: "";
+    position: absolute;
+    height: 40rem;
+    width: 32.1rem;
+    border: 3px solid #7857F7;
+    
+    bottom:-1.5rem;
+    display: block;
+    z-index: -1;
+    border-radius: 1rem;
+    left: 3.5rem;
+    -webkit-box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.75);
+    
+    
+    
+    
+}
+
+
+ /* section3 my skill*/
+.section_3{
+    background-color:white;
+    color: black;
+}
+
+.section_3 h6{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+
+.section_3 .container>div h2{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+
+.section_3 .pseudo h2:after{
+     background-color:#7F56FD;
+    width: 7.0rem;
+    display: block;
+    content: "";
+    height: 0.188rem;
+    margin: auto;
+    margin-top: 0.625rem;
+}
+.section_3 .pseudo div:before{
+     background-color: #7F56FD;
+    width: 4.0rem;
+    display: block;
+    content: "";
+    height: 0.188rem;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.pseudo small{
+     font-size: 1.5rem;
+}
+
+
+.my_skill .skill_card_2{
+    
+    border-radius: 0.7rem;
+    background-color: #FFFFFF;
+    min-width: 35.4rem!important;
+    height: 20.7rem!important;
+    -webkit-box-shadow: -4px 4px 46px -20px rgba(0,0,0,0.67);
+-moz-box-shadow: -4px 4px 46px -20px rgba(0,0,0,0.67);
+box-shadow: -4px 4px 46px -20px rgba(0,0,0,0.67);
+   
+}
+.section_3 .my_skill h6{
+    margin-bottom: 0!important;
+}
+
+
+
+
+
+/*section 4 jqueary plugin*/
+
+
+.section_4{
+     background: linear-gradient( rgba(123,88,235,.9), rgba(123,88,235,.9)),url(img/BGimg/Rectangle42.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center center;
+    min-height: 29.0rem;
+}
+.section_4 i{
+    color: red!important;
+}
+
+
+
+.section_4 .num{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.section_4 .fa{
+    color: white!important;
+}
+
+.section_4 .row{
+    justify-content: center;
+    align-items: center;
+    padding-top: 8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* COUNTER UP
+ .counter_up>span{
+        -webkit-transition: all 400ms ease;
+        -moz-transition: all 400ms ease;
+        -o-transition: all 400ms ease;
+        transition: all 400ms ease;
+        text-align: center;
+    }
+   
+    .counter_up span {
+        font-size: 66px;
+        color: #555;
+        
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+    }
+    .counter_up>span {
+        margin-bottom: 0;
+    }
+    .circle {
+        background: #2980b9;
+        width: 200px;
+        line-height: 200px;
+        display: inline-block;
+        color: #fff;
+        border-radius: 100%;
+    }
+    code, code > span {
+        text-align: left;
+        display: block;
+        font-family: Monaco, monospace;
+        background: #444;
+        color: #fff;
+        padding: 20px;
+        font-size: 14px;
+        margin-bottom: 100px;
+    }
+    code > span {
+        padding: 0;
+        margin: 0;
+    }
+*/
+
+ /* section5 my PORTFOLIO*/
+.section_5{
+    background-color:white;
+    color: black;
+}
+
+.section_5 h6{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+
+.section_5 .container>div h2{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+
+.section_5 .pseudo h2:after{
+     background-color:#7F56FD;
+    width: 7.0rem;
+    display: block;
+    content: "";
+    height: 0.188rem;
+    margin: auto;
+    margin-top: 0.625rem;
+}
+.section_5 .pseudo div:before{
+     background-color: #7F56FD;
+    width: 4.0rem;
+    display: block;
+    content: "";
+    height: 0.188rem;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.mixite_up img{
+    width: 100%;
+    max-height: 50rem;
+    max-width: 44.4rem;
+    
+}
+
+
+
+.mixite_up_btn button{
+    width: 14.0rem;
+    height: 4.5rem;
+    font-size:1.5rem ;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: .1rem solid black;
+}
+.mixite_up_btn button:first-child{
+    background-color: #855BF9!important;
+    border: 0;
+    color: white;
+    
+}
+/*.mixite_up .active_img:before{
+    background-image: linear-gradient( rgba(123,88,235,.8), rgba(123,88,235,.8));
+    overflow: hidden;
+    background-size: contain;
+    background-position: center center;
+    z-index: -1;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+    
+} */
+
+
+/*.mixite_up_btn button:first-child{
+   color: white;
+    border: 0;
+    background-color: #7F56FD;
+}
+.mixite_up .row div:first-child{
+    
+background-color: linear-gradient( rgba(123,88,235,.9), rgba(123,88,235,.9)) ;
+    
+} */
+
+
+/* section_6 */
+.section_6{
+    background: linear-gradient( rgba(123,88,235,.9), rgba(123,88,235,.9)),url(img/BGimg/Rec.jpg);
+      background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center center;
+     min-height: 54.4rem;
+}
+
+
+.carousel-inner img{
+    max-width: 100px;
+   
+}
+
+ /*--testimonial_area Last JQ plugin--*/
+
+.testimonial_area .image-area img{
+    max-width: 12rem;
+    max-height: 12rem;
+    
+    border: 3px solid white;
+    border-radius: 50%;
+    border-top: 10px;
+}
+}
+
+
+.testimonial_area{
+    
+}
+
+
+
+
+
+/* the team*/
+.card{
+    border-radius: 1.5rem;
+   -webkit-box-shadow: 0px 1px 6px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 6px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 6px -1px rgba(0,0,0,0.75);
+    
+}
+.card img{
+    max-width: 100%;
+}
+
+
+/*the blog*/
+.card-deck .card-body .fa{
+    color: black!important;
+}
+
+.card-deck .card-body span{
+    color: #7F56FD;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #263238;
+    color: white;
+}
+footer hr{
+
+    border-top: 1px solid #7C8488 !important;;
+    
+}
+.social_logo{
+    padding: 3rem;
+}
+.social_logo ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+margin-top: 2rem;
+}
+
+.social_logo ul>li{
+    margin-left: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
